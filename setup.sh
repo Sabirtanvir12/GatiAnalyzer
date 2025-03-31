@@ -225,7 +225,7 @@ if [[ "$OS" == "Windows" ]]; then
 else
     echo -e "${BLUE}   ./gati.sh${NC}"
     echo -e "${YELLOW}   OR${NC}"
-    echo -e "${BLUE}   ./$SCRIPT_NAME${NC}"
+    echo -e "${BLUE}   python3 $SCRIPT_NAME${NC}"
 fi
 
 echo -e "\n${YELLOW}>>> The gati launcher will try virtual environment first,${NC}"
